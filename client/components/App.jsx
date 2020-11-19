@@ -6,11 +6,11 @@ import LocationList from './Location'
 
 import { connect } from 'react-redux'
 
-const App = () => {
+const App = (props) => {
   return (
     <div>
-      <h1>WHAT UP WHAT UP</h1>
-      <Route path='/' render={() => { return <LocationList locations={locations} /> }} />
+      <Route path='/' render={() => { return <Header target={props.target} /> }} />
+      <Route path='/locations' render={() => { return <LocationList locations={locations} /> }} />
     </div>
   )
 }

@@ -32,7 +32,11 @@
   },
   "homepage": "https://github.com/horoeka-2020/NOWhere#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "knex": "^0.21.12",
+    "react-router-dom": "^5.2.0",
+    "sqlite3": "^5.0.0",
+    "superagent": "^6.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",
