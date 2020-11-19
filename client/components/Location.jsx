@@ -1,4 +1,3 @@
-
 // import React from 'react'
 // // {/* {console.log(props.data.beers)} */}
 
