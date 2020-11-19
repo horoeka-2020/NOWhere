@@ -9,15 +9,19 @@ body {
 
 .title {
     font-family: 'Shadows Into Light', cursive;
-    font-size: 100px;
+    font-size: 150px;
     color: white;
-    text-shadow: 2px 2px black;
+    text-shadow: 5px 5px black;
     display: block;
     margin: 0 auto;
     width: 25%;
+    z-index: 10;
+    
 }
 
 .photowrapper {
+    position: relative;
+    top: -200px;
     width: 70%;
     height: 80%;
 }
@@ -49,24 +53,22 @@ body {
       /* position: relative; */
     }
   .city{
-    font-size: 35px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size:40px;
     display: block;
     text-align: center;
-    
+    position: relative;
+    top: -5px;
   }
   a {
     text-decoration: none;
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 25px;
     color: black;
-    position: relative;
+    /* position: relative; */
   }
   a:after {
     color: #333;
-    font-size: 40px;
     content: attr(title);
     position: relative;
-    font-family: 'Shadows Into Light', cursive;
     top:15px;
   }
 
