@@ -4,17 +4,17 @@ export default {
             id: 1,
             name: 'HKG',
             image: '',
-            description: ''
+            description: 'Good morning Hong Kong!'
         }, {
             id: 2,
             name: 'NYC',
             image: '',
-            description: ''
+            description: 'New York City'
         }, {
             id: 3,
             name: 'HAV',
             image: '',
-            description: ''
+            description: 'Havana Oh nana'
         }
     ]
 }

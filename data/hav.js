@@ -9,12 +9,12 @@ export default {
             id: 2,
             name: 'HAV 2',
             image: 'add src link',
-            caption: 'Ouch!'
+            caption: ''
         }, {
             id: 3,
             name: 'HAV 3',
             image: 'add src link',
-            caption: 'Hello kitty'
+            caption: ''
         }
     ]
 }
