@@ -19,5 +19,5 @@ We want to build a photo gallery using react and redux. We also want to be creat
 
 # Stretch
 - Welcome Page (Suitcase): This will be a CSS transition into our Home page. It should look like a suitcase opening up.
-- Carousel for the Locations page. Will be using bootstrap.
+- Carousel for the Locations page. Will be using bootstrap. Will need a close button which redirects back to Home page.
 
