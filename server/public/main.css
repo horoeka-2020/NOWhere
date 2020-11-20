@@ -1,12 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
 body {
-  width: 75%;
-  margin: auto;
+    background-image: url('images/wood.jpg');
+    height: 100%;
+    width: 100%;
 }
 
-h1 {
-  margin-top: 30px;
+.title {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 150px;
+    color: white;
+    text-shadow: 5px 5px black;
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+    z-index: 10;
+    
 }
 
-.welcome {
-  margin-bottom: 40px;
+.photowrapper {
+    position: relative;
+    top: -200px;
+    width: 70%;
+    height: 80%;
 }
+
+.frame{
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 30%;
+    margin-top: 200px;
+    margin-left: -100px;
+    background: white;
+    box-shadow: 2px 2px 15px #404040;
+    transform: rotate(7deg);
+    transition: all .15s linear;
+    z-index:0;
+    position:relative;
+    display: inline-block;
+  }
+  .frame:hover{
+      transform: rotate(0deg);
+      transform: scale(1.05);
+      filter: grayscale(50%);
+    z-index: 10; 
+  }
+  
+.frame .polaroid {
+      width: 370px;
+      /* position: relative; */
+    }
+  .city{
+    font-family: 'Shadows Into Light', cursive;
+    font-size:40px;
+    display: block;
+    text-align: center;
+    position: relative;
+    top: -5px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    /* position: relative; */
+  }
+  a:after {
+    color: #333;
+    content: attr(title);
+    position: relative;
+    top:15px;
+  }
+
+  img {
+    filter: brightness(1.9);
+    filter: contrast(0.7);
+    margin: 15px  12px 20px;
+    border: 2px solid #404040;
+  }
+
