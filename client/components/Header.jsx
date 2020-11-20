@@ -4,8 +4,8 @@ import { connect } from 'react-redux'
 
 function Header () {
   return (
-    <div className='header'>
-      <h1><span className=""></span> NOWhere <span className=""></span></h1>
+    <div>
+      <h1 className ='title'>From Nowhere &#8669; Now Here!!!</h1>
     </div>
   )
 }

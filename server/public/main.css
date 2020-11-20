@@ -9,19 +9,19 @@ body {
 
 .title {
     font-family: 'Shadows Into Light', cursive;
-    font-size: 150px;
+    font-size: 70px;
     color: white;
     text-shadow: 5px 5px black;
     display: block;
     margin: 0 auto;
-    width: 25%;
-    z-index: 10;
+    width: 70%;
+    /* z-index: 10; */
     
 }
 
 .photowrapper {
     position: relative;
-    top: -200px;
+    top: -100px;
     width: 70%;
     height: 80%;
 }

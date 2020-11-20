@@ -1,19 +1,14 @@
-// import React from 'react'
-// // {/* {console.log(props.data.beers)} */}
+import React from 'react'
+import { connect } from 'react-redux'
 
-// // Import our BeerListItem component
-// import BeerListItem from './BeerListItem'
+const Location = (props) => {
+  return (
+    <>
+      <div className="frame">
+        <a href="#" className='city'><img src='./images/chicago.jpg' className="polaroid" alt="image"/>Chicago</a>
+      </div>
+    </>
+  )
+}
 
-// // Create functional component stateless
-// function BeerList (props) {
-//   return (
-//     <>
-//       <div className="data">
-//         {props.data.beers.map((beer) =>
-//           <BeerListItem data={beer} key={beer.id}/>
-//         )}
-//       </div>
-//     </>
-//   )
-// }
-// export default BeerList
+export default connect()(Location)

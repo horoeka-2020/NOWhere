@@ -1,17 +1,25 @@
 import React from 'react'
-
 import { Route } from 'react-router-dom'
 import Header from './Header'
 import LocationList from './Location'
+import locations from '../../data/locations'
 
 import { connect } from 'react-redux'
 
 const App = (props) => {
   return (
-    <div>
-      <Route path='/' render={() => { return <Header target={props.target} /> }} />
-      <Route path='/locations' render={() => { return <LocationList locations={locations} /> }} />
-    </div>
+    <>
+      <div className='container'>
+        <Route path='/' render={() => {
+          return <Header target={props.target} />
+        }} />
+        <LocationList locations={props} />
+
+        <Route path='/:id' render={() => {
+          return null
+        }} />
+      </div>
+    </>
   )
 }
 export default connect()(App)
