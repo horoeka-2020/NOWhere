@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 
 const Location = (props) => {
@@ -6,7 +7,7 @@ const Location = (props) => {
   return (
     <>
       <div className="frame">
-  <a href="#" className='city'><img src={location.polaroid} className="polaroid" alt="image"/>{location.name}</a>
+        <Link to={`/${location.id}`} className='city'><img src={location.polaroid} className="polaroid" alt="image"/>{location.name}</Link>
       </div>
     </>
   )

@@ -2,7 +2,7 @@ import React from 'react'
 import { Route } from 'react-router-dom'
 import Header from './Header'
 import LocationList from './LocationList'
-
+import Memories from './Memories'
 
 import { connect } from 'react-redux'
 
@@ -16,7 +16,7 @@ const App = (props) => {
         <LocationList locations={props} />
 
         <Route path='/:id' render={() => {
-          return null
+          return <Memories />
         }} />
       </div>
     </>

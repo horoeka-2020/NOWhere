@@ -1,11 +1,12 @@
-// Create functional component stateless
-// function  () {
-//   return (
-//     <>
-//       <h1><span className=""></span> <span className=""></span></h1>
+import React from 'react'
+import { connect } from 'react-redux'
 
-//       <p className="welcome">Memories.</p>
-//     </>
-//   )
-// }
-// export default
+function Memories () {
+  return (
+    <div>
+      <h1 className ='title'>Lez take a walk down memory lane...</h1>
+    </div>
+  )
+}
+
+export default connect()(Memories)
