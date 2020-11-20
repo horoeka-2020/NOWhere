@@ -1,8 +1,8 @@
 import React from 'react'
 import { Route } from 'react-router-dom'
 import Header from './Header'
-import LocationList from './Location'
-import locations from '../../data/locations'
+import LocationList from './LocationList'
+
 
 import { connect } from 'react-redux'
 
