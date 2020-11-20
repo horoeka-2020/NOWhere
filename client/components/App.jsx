@@ -15,7 +15,7 @@ const App = (props) => {
         }} />
         <LocationList locations={props} />
 
-        <Route path='/:id' render={() => {
+        <Route path='/4' render={() => {
           return <Memories />
         }} />
       </div>
