@@ -1,4 +1,4 @@
-# Ninja Travels
+# NOWhere
 Week 6 - Group Project Repo
 
 # Group Members
